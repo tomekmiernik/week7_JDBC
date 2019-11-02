@@ -19,8 +19,8 @@ public class CarGui extends VerticalLayout {
     private Grid<Car> grid = new Grid<>(Car.class);
     private CarForm carForm;
 
-    TextField sinceDate = new TextField();
-    TextField fromDate = new TextField();
+    private TextField sinceDate = new TextField();
+    private TextField fromDate = new TextField();
 
     public CarGui(CarDaoImpl carDao) {
         this.carDao = carDao;
